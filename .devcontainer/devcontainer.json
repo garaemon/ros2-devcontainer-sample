@@ -1,0 +1,9 @@
+{
+  "name": "ros2",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "containerEnv": {
+    "TERM": "xterm-256clor"
+  }
+}

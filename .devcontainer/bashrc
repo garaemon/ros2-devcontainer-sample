@@ -1,0 +1,9 @@
+# -*- mode: bash -*-
+# custom bashrc for devcontainer
+
+
+if [ -e /workspace/install/setup.bash ]; then
+  source /workspace/install/setup.bash
+elif [ -e /opt/ros/humble/setup.bash ]; then
+  source /opt/ros/humble/setup.bash
+fi
