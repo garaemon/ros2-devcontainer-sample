@@ -9,7 +9,7 @@ This approach should work both on MacOS and Linux.
 [devcontaners/cli](https://github.com/devcontainers/cli) is a reference implementation for
 devcontainer.json.
 
-## Install devcontaines
+## Install devcontainers/cli
 
 ```shell
 npm install -g @devcontainers/cli
@@ -34,9 +34,9 @@ colcon build --parallel-workers 2
 # Use [devgo](https://github.com/garaemon/devgo)
 
 [devgo](https://github.com/garaemon/devgo) is my personal project to run docker containers based
-on devcontainerjson.
+on devcontainer.json.
 
-## Install devco
+## Install devgo
 
 ```shell
 go install github.com/garaemon/devgo@latest
